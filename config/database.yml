@@ -17,9 +17,10 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: familytab_development
+  database: familytab
+  host: localhost
   pool: 5
-  username: familytab
+  username: <%= ENV['USERNAME'] %>
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,13 +49,9 @@ test:
   encoding: unicode
   database: familytab_test
   pool: 5
-  username: familytab
-  password:
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: familytab_production
+  database: familytab
   pool: 5
-  username: familytab
-  password:
