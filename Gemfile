@@ -9,6 +9,9 @@ gem 'rails', '4.0.2'
 gem 'pg'
 gem 'thin'
 
+# For ENV variables
+gem 'figaro'
+
 # The cosmetics
 gem 'bootstrap-sass', '~> 3.0.3.0'
 gem "font-awesome-rails"
