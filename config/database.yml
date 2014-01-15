@@ -49,9 +49,10 @@ test:
   encoding: unicode
   database: familytab_test
   pool: 5
-
+  
 production:
   adapter: postgresql
   encoding: unicode
-  database: familytab
+  database: familytab_production
   pool: 5
+  
