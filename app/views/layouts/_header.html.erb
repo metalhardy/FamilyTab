@@ -1,1 +1,6 @@
-_header.html.erb
+<ul class="nav-top-menu">
+	<li>Bao Bao House</li>
+	<li><%= link_to '<i class="fa fa-home"></i> Home'.html_safe, root_path %></li>
+	<li><%= link_to '<i class="fa fa-calendar"></i> Calendar'.html_safe, '#' %></li>
+	<li class="pull-right"><%= link_to '<i class="fa fa-sign-out"></i> Logout'.html_safe, destroy_bao_bao_session_path, method: :delete %></li>
+</ul>
