@@ -15,6 +15,9 @@ gem 'thin'
 # For ENV variables
 gem 'figaro'
 
+# For authentication
+gem 'devise'
+
 # The cosmetics
 gem 'bootstrap-sass', '~> 3.0.3.0'
 gem "font-awesome-rails"

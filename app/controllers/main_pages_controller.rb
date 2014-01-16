@@ -10,4 +10,5 @@ class MainPagesController < ApplicationController
 
   def developer
   end
+
 end

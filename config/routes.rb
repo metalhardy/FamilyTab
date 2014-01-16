@@ -1,5 +1,7 @@
 Familytab::Application.routes.draw do
   
+  devise_for :bao_baos
+  
   get "main_pages/home"
   get "main_pages/about"
   get "main_pages/contact"
@@ -9,7 +11,7 @@ Familytab::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root to: 'main_pages#home'
+  root to: "main_pages#home"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
