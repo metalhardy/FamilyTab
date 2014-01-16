@@ -1,5 +1,14 @@
 module ApplicationHelper
 
+	def title(page)
+		default = "FamilyTab"
+		if page.blank?
+			default
+		else
+			"#{ default } | #{ page }"
+		end
+	end
+
   def resource_name
   	:bao_bao
   end

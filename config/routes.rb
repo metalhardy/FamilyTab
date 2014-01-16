@@ -1,9 +1,9 @@
 Familytab::Application.routes.draw do
   
-  devise_for :bao_baos
-  
+  devise_for :bao_baos, path: '', path_names: { sign_in: 'login', sign_out: 'logout' }
+
   get "main_pages/home"
-  get "main_pages/about"
+  get 'about' => 'main_pages#about'
   get "main_pages/contact"
   get "main_pages/developer"
 

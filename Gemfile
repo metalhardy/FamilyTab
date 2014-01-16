@@ -18,6 +18,10 @@ gem 'figaro'
 # For authentication
 gem 'devise'
 
+# Form
+gem 'simple_form'
+gem 'country_select'
+
 # The cosmetics
 gem 'bootstrap-sass', '~> 3.0.3.0'
 gem "font-awesome-rails"
