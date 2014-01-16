@@ -3,8 +3,34 @@
 
 /* Universal */
 
+@font-face {
+  font-family: 'Roboto';
+  src:url('Roboto-Regular.ttf');
+  src:url('Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src:url('Roboto-Light.ttf');
+  src:url('Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  src:url('Roboto-Thin.ttf');
+  src:url('Roboto-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Righteous';
+  src:url('Exo2-Regular.ttf');
+  src:url('Exo2-Regular.ttf') format('truetype');
+}
+
+
 html, body {
 	height: 100%;
+	font-family: 'Roboto';
 }
 
 #wrap {
@@ -15,3 +41,21 @@ html, body {
 	overflow: auto;
 	padding-bottom: 20px;
 }
+
+.form-background {
+	background: #FAFAFA;
+	padding: 30px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.bigbang {
+	font-size: 6.0em;
+	text-align: center;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Righteous';
+}
+

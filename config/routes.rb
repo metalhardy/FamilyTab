@@ -1,6 +1,6 @@
 Familytab::Application.routes.draw do
-  
-  devise_for :bao_baos, path: '', path_names: { sign_in: 'login', sign_out: 'logout' }
+
+  devise_for :bao_baos
 
   get "main_pages/home"
   get 'about' => 'main_pages#about'
