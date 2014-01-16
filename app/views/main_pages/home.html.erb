@@ -1,4 +1,8 @@
-<h1>Welcome to Bao Bao Family</h1>
-<small>Please login below</small>
+<% if bao_bao_signed_in? %>
+	<h1>You are signed in! <%= current_bao_bao.email %></h1>
+<% else %>
+	<h1>Welcome to Bao Bao Family</h1>
+	<small>Please login below</small>
 
-<%= render 'forms/login' %>
+	<%= render 'forms/login' %>	
+<% end %>
