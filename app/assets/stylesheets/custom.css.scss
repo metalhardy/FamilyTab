@@ -42,6 +42,36 @@ html, body {
 	padding-bottom: 20px;
 }
 
+/*#home { 
+  background: url(singapore.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+}
+ 
+#home article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}*/
+ 
+#about { 
+	background: url(singapore.jpg) 60% 0 repeat fixed; min-height: 300px; 
+	margin: 0 auto; 
+	width: 100%; 
+	position: relative; 
+}
+ 
+#about article {
+	padding-top: 30px;
+	color: #fff;
+	text-align: center; 
+}
+
 .form-background {
 	margin-top: 20px;
 	background: #FAFAFA;
